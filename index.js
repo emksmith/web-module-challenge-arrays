@@ -85,7 +85,7 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(originalFlavors, "Rainbow Sherbert"){
+function addFlavor(originalFlavors){
   return originalFlavors.unshift("Rainbow Sherbert")
  }
 
