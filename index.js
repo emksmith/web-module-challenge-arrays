@@ -64,8 +64,10 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-  /*your code here*/
+function is31Flavors(originalFlavors){
+  if(originalFlavors.length === 31) {
+    return true;
+  }
  }
 
 
