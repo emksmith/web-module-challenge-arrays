@@ -126,7 +126,7 @@ Use the getFlavorByIndex function below to do the following:
 
 
 function getFlavorByIndex(array, number){
-  return array(number);
+  return array[number];
 }
 
 console.log('task 5', getFlavorByIndex(originalFlavors, 2))
