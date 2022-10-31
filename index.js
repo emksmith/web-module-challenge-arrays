@@ -146,9 +146,11 @@ Use the removeFlavorByName function below to do the following:
   HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
-  /*your code here*/
+function removeFlavorByName(array, flavor){
+  return array.splice()
 }
+
+console.log(removeFlavorByName(originalFlavors, "Rocky Road"))
 
 
 
