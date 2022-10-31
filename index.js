@@ -64,11 +64,13 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(originalFlavors){
-  if(originalFlavors.length === 31) {
+function is31Flavors(array){
+  if(array.length === 31) {
     return true;
   }
  }
+
+ console.log('task2', is31Flavors(originalFlavors))
 
 
 
@@ -85,10 +87,11 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(originalFlavors){
-  return originalFlavors.unshift("Rainbow Sherbert")
+function addFlavor(array, string){
+   array.unshift(string)
+   return array;
  }
-
+console.log('task 3', addFlavor(originalFlavors, "Rainbow Sherbert"))
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
