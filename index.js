@@ -46,11 +46,11 @@ Use the copy function below to do the following:
 */
 
 
-function copy(originalFlavors){
-  originalFlavors.slice();
-  return copy;
+function copy(array){
+ return [...array];
+  
 }
-
+console.log('task 1', copy(originalFlavors))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
